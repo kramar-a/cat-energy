@@ -1,0 +1,20 @@
+.button__menu {
+  width: 24px;
+  height: 24px;
+  background-image: linear-gradient(to bottom, var(--secondary-decor) 2px, var(--primary-decor) 2px, var(--primary-decor) 4px, var(--secondary-decor) 4px, var(--secondary-decor) 10px, var(--primary-decor) 10px, var(--primary-decor) 12px, var(--secondary-decor) 12px, var(--secondary-decor) 18px, var(--primary-decor) 18px, var(--primary-decor) 20px, var(--secondary-decor) 20px);
+  display: block;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .button__menu {
+    display: none;
+  }
+}

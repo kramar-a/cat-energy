@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px) {
+  .main-nav__item--active {
+    text-decoration: underline;
+    text-decoration-color: var(--secondary-background-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-nav__item--active {
+    text-decoration-color: var(--primary-background-color);
+  }
+}

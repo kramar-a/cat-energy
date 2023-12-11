@@ -1,4 +1,5 @@
 .main-nav {
+  display: none;
   position: absolute;
   top: 100%;
   left: 0;
@@ -9,5 +10,6 @@
 @media screen and (min-width: 768px) {
   .main-nav {
     position: static;
+    display: block;
   }
 }
