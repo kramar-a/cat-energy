@@ -1,0 +1,13 @@
+.main-nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--primary-background-color);
+}
+
+@media screen and (min-width: 768px) {
+  .main-nav {
+    position: static;
+  }
+}

@@ -1,0 +1,23 @@
+.main-nav__list {
+  flex-direction: column;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+@media screen and (min-width: 768px) {
+  .main-nav__list {
+    font-size: 18px;
+    line-height: 24px;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 33px;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-nav__list {
+    font-size: 20px;
+    line-height: normal;
+    color: var(--secondary-text-colo);
+  }
+}

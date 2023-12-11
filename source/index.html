@@ -7,20 +7,21 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
-    <header class="page-header main-header--index">
-      <a class="link main-header__logo main-header__logo--pic" href="#">
-        <picture>
-          <source media="(min-width: 1440px)" srcset="img/logos/logo-desktop.svg" width="202" height="59">
-          <source media="(min-width: 768px)" srcset="img/logos/logo-tablet.svg" width="174" height="50">
-          <img class="image" src="img/logos/logo-mobile.svg" alt="Логотип" width="33" height="38">
+    <header class="page-header">
+      <a class="link" href="#">
+        <picture class="logo logo--image">
+          <source media="(min-width: 1440px)" srcset="img/logos/logo-image-desktop.svg" width="70" height="59">
+          <source media="(min-width: 768px)" srcset="img/logos/logo-image-tablet.svg" width="60" height="50">
+          <img class="image" src="img/logos/logo-image-mobile.svg" alt="Логотип" width="33" height="38">
         </picture>
       </a>
-      <a class="link main-header__logo main-header__logo--text" href="#">
-        <img class="image" src="img/logos/logo-text-mobile.svg" alt="Текстовый логотип" width="101" height="18">
+      <a class="link" href="#">
+        <picture class="logo logo--text">
+          <source media="(min-width: 1440px)" srcset="img/logos/logo-text-desktop.svg" width="118" height="21">
+          <source media="(min-width: 768px)" srcset="img/logos/logo-text-tablet.svg" width="101" height="18">
+          <img class="image" src="img/logos/logo-text-mobile.svg" alt="Текстовый логотип" width="101" height="18">
+        </picture>
       </a>
-      <button class="button header__toggle" type="button">
-        <span class="visually-hidden">Открыть меню</span>
-      </button>
       <nav class="main-nav">
         <ul class="flexlist main-nav__list main-nav__list--index">
           <li class="main-nav__item">
@@ -40,8 +41,12 @@
           </li>
         </ul>
       </nav>
+      <button class="button button--menu" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
     </header>
     <main class="main-container">
+      <h1 class="title page__title">Функциональное <span>питание для котов</span></h1>
     </main>
     <footer class="page-footer">
       <a class="link main-footer__logo-link" href="#" aria-label="Логотип компании">
@@ -88,8 +93,8 @@
           </a>
         </li>
       </ul>
-        <a class="link main-footer__partner main-footer__partner--academy" href="https://htmlacademy.ru" aria-label="Партнёрская ссылка">
-        </a>
+      <a class="link main-footer__partner main-footer__partner--academy" href="https://htmlacademy.ru" aria-label="Партнёрская ссылка">
+      </a>
     </footer>
     <script src="./js/toggle-menu.js"></script>
     <script src="./js/slider.js"></script>

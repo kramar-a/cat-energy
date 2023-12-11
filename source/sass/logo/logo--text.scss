@@ -1,0 +1,17 @@
+.logo--text {
+  --logo-width: 101px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo--text {
+    // width: 60px;
+    --logo-width: 101px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .logo--text {
+    // width: 70px;
+    --logo-width: 118px;
+  }
+}

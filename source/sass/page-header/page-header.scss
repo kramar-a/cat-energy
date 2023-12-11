@@ -1,0 +1,22 @@
+.page-header {
+  padding: 13px 20px 14px;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .page-header {
+    padding: 25px 30px 0;
+    position: static;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .page-header {
+    padding: 55px 110px 0;
+  }
+}
+

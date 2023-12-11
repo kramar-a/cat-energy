@@ -1,0 +1,35 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.flexlist {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.gridlist {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+}
+
+.deflist {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  .key {
+    margin: 0;
+    padding: 0;
+  }
+
+  .value {
+    margin: 0;
+    padding: 0;
+  }
+}

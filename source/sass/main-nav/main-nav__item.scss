@@ -1,0 +1,12 @@
+.main-nav__item {
+  padding: 22px 0 24px;
+  border-top: 1px solid #e6e6e6;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .main-nav__item {
+    border: none;
+    padding: 0;
+  }
+}

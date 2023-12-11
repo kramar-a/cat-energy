@@ -32,6 +32,9 @@
   //Breakpoints variables
   --tablet-width: 768px;
   --desktop-width: 1440px;
+
+  //additional variables
+  --logo-width: 33px;
 }
 
 @font-face {
@@ -74,25 +77,11 @@
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  outline: 3px solid green;
 }
 
 .main-container {
   flex-grow: 1;
-}
-
-.button {
-  appearance: none;
-  display: block;
-  border: 0;
-  outline: 0;
-  margin: 0;
-  font-family: inherit;
-  color: var(--secondary-text-color);
-  background-color: var(--secondary-background-color);
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
-  cursor: pointer;
 }
 
 .link {
@@ -107,42 +96,6 @@
   max-width: 100%;
   height: auto;
   object-fit: contain;
-}
-
-.list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.flexlist {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-}
-
-.gridlist {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: grid;
-}
-
-.deflist {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-
-  .key {
-    margin: 0;
-    padding: 0;
-  }
-
-  .value {
-    margin: 0;
-    padding: 0;
-  }
 }
 
 .visually-hidden {
