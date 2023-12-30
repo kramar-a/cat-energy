@@ -1,0 +1,16 @@
+.logo--svg {
+  --footer-logo-color: var(--decor-color-3);
+  --logo-width: 128px;
+
+  &:hover {
+    --footer-logo-color: #3e3e3e;
+  }
+
+  &:active {
+    --footer-logo-color: #6b6b6b;
+  }
+}
+
+.logo__char {
+  fill: var(--footer-logo-color)
+}

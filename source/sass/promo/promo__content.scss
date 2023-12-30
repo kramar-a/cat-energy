@@ -1,0 +1,16 @@
+.promo__content {
+  padding-top: 27px;
+  padding-bottom: 164px;
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../../img/promo-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .promo__content {
+    background: none;
+    color: var(--primary-text-color);
+    padding: 65px 120px 50px;
+  }
+}

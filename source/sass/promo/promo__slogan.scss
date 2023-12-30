@@ -1,0 +1,15 @@
+.promo__slogan {
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .promo__slogan {
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+  }
+}

@@ -1,0 +1,14 @@
+.page-title {
+  margin: 0;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .page-title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}

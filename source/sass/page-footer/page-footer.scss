@@ -1,0 +1,19 @@
+.page-footer {
+  padding: 40px 20px;
+  background-color: var(--additional-background-color);
+}
+
+@media screen and (min-width: 768px) {
+  .page-footer {
+    padding: 55px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .page-footer {
+    padding: 66px 110px;
+  }
+}

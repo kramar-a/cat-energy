@@ -1,0 +1,10 @@
+.promo {
+  color: var(--secondary-text-color);
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .promo {
+    padding-bottom: 526px;
+  }
+}

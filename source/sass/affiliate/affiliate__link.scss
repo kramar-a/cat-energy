@@ -1,0 +1,27 @@
+.affiliate__link {
+  --after-background: var(--decor-color-2);
+  text-transform: none;
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  justify-content: space-between;
+
+  &:hover {
+    --after-background: var(--secondary-background-color);
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+
+  &::after {
+    display: block;
+    content: "";
+    width: 27px;
+    height: 34px;
+    background-color: var(--after-background);
+    mask-image: url("../../img/logos/academy-logo-image.svg");
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
+}

@@ -12,3 +12,10 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
