@@ -3,7 +3,7 @@
   line-height: 14px;
   text-transform: uppercase;
   text-align: center;
-  position: relative;
+  margin-bottom: 29px;
 }
 
 @media screen and (min-width: 768px) {
@@ -11,5 +11,15 @@
     font-size: 20px;
     line-height: 20px;
     text-align: left;
+    margin-left: 90px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .promo__slogan {
+    margin-left: 80px;
+    margin-bottom: 0;
+    align-self: center;
   }
 }

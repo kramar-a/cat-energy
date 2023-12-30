@@ -1,0 +1,9 @@
+.button--primary {
+  &:hover {
+    background-color: var(--status-color);
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}

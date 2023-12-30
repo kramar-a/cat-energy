@@ -10,5 +10,14 @@
   .promo__title {
     align-items: flex-start;
     margin-bottom: 40px;
+    margin-left: 90px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .promo__title {
+    margin-bottom: 0;
+    margin-left: 80px;
+    align-self: flex-end;
   }
 }
