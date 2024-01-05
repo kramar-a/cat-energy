@@ -1,0 +1,40 @@
+.programs__item--slim {
+  --cat-background: url("../../img/cat-slim.svg");
+  grid-template-columns: 50px auto;
+  padding-top: 21px;
+  column-gap: 20px;
+
+  &::before {
+    background-position: center bottom 3px, center;
+    background-size: 36px 50px, contain;
+    height: 53px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .programs__item--slim {
+    grid-template-columns: auto 200px;
+    padding-top: 77px;
+    column-gap: 53px;
+
+    &::before {
+      background-position: center bottom 17px, center;
+      background-size: 140px 194px, contain;
+      height: 217px;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .programs__item--slim {
+    grid-template-columns: 100px auto;
+    padding-top: 47px;
+    column-gap: 62px;
+
+    &::before {
+      background-position: center bottom 9px, center;
+      background-size: 70px 97px, contain;
+      height: 106px;
+    }
+  }
+}

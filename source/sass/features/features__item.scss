@@ -1,0 +1,69 @@
+.features__item {
+  display: flex;
+  gap: 20px;
+  text-align: justify;
+
+  &::before {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 60px;
+    background-color: var(--secondary-background-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+  }
+
+  &--composition {
+    &::before{
+      background-image: url("../../img/composition.svg");
+    }
+  }
+
+  &--cooking {
+    &::before{
+      background-image: url("../../img/cooking.svg");
+    }
+  }
+
+  &--eating {
+    &::before{
+      background-image: url("../../img/eating.svg");
+    }
+  }
+
+  &--period {
+    &::before{
+      background-image: url("../../img/period.svg");
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .features__item {
+    flex-direction: column;
+    position: relative;
+    padding-top: 40px;
+    min-height: 280px;
+    gap: 31px;
+
+    &::before {
+      width: 80px;
+      height: 80px;
+    }
+
+    &::after {
+      display: block;
+      counter-increment: item-no;
+      content: counter(item-no);
+      font-family: var(--primary-font);
+      color: var(--additional-background-color);
+      font-size: 280px;
+      line-height: 280px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: -1;
+    }
+  }
+}

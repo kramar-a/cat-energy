@@ -1,0 +1,13 @@
+@media screen and (min-width: 768px) {
+  .features__content {
+    &::after {
+      display: block;
+      counter-increment: item-no;
+      content: counter(item-no);
+      font-family: var(--primary-font);
+      color: var(--additional-background-color);
+      font-size: 280px;
+      line-height: 280px;
+    }
+  }
+}

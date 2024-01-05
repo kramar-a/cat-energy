@@ -1,0 +1,40 @@
+.programs__item--pro {
+  --cat-background: url("../../img/cat-pro.svg");
+  grid-template-columns: 67px auto;
+  padding-top: 24px;
+  column-gap: 11px;
+
+  &::before {
+    background-position: center;
+    background-size: 67px 28px, contain;
+    width: 67px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .programs__item--pro {
+    grid-template-columns: auto 268px;
+    padding-top: 77px;
+    padding-right: 29px;
+    column-gap: 19px;
+
+    &::before {
+      background-size: 268px 112px, contain;
+      width: 268px;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .programs__item--pro {
+    grid-template-columns: 134px auto;
+    padding-top: 47px;
+    padding-right: 67px;
+    column-gap: 47px;
+
+    &::before {
+      background-size: 134px 56px, contain;
+      width: 134px;
+    }
+  }
+}

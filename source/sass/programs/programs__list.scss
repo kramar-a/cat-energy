@@ -1,0 +1,20 @@
+.programs__list {
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .programs__list {
+    color: var(--primary-text-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .programs__list {
+    color: var(--primary-text-color);
+    flex-direction: row;
+    gap: 80px;
+  }
+}

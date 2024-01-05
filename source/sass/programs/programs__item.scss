@@ -1,0 +1,51 @@
+.programs__item {
+  background-color: var(--additional-background-color);
+  padding: 21px 20px 18px;
+  display: grid;
+
+  &::before {
+    display: block;
+    width: 50px;
+    height: 50px;
+    content: "";
+    background-repeat: no-repeat;
+    background-image:
+      var(--cat-background),
+      radial-gradient(circle, var(--secondary-background-color) 25px, transparent 25px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .programs__item {
+    padding: 77px 63px 53px 52px;
+    grid-auto-flow: row dense;
+
+    &::before {
+      width: 200px;
+      height: 200px;
+      order: 1;
+      grid-row: span 3;
+      background-image:
+        var(--cat-background),
+        radial-gradient(circle, var(--secondary-background-color) 100px, transparent 100px);
+  }
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  .programs__item {
+    padding: 41px 61px 55px 52px;
+    max-width: 46%;
+
+    &::before {
+      width: 100px;
+      height: 100px;
+      order: 0;
+      grid-row: auto;
+      background-image:
+        var(--cat-background),
+        radial-gradient(circle, var(--secondary-background-color) 50px, transparent 50px);
+    }
+  }
+}

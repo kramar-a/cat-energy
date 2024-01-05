@@ -1,0 +1,16 @@
+.features {
+  padding: 0 20px 49px;
+}
+
+@media screen and (min-width: 768px) {
+  .features {
+    padding: 0 30px 47px;
+    border-bottom: 1px solid var(--border-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .features {
+    padding: 0 110px 69px;
+  }
+}
